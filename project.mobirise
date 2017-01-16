@@ -6,22 +6,22 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#fac51c",
         "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
+        "successColor": "#a38f84",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 3,
+    "uniqCompNum": 7,
     "versionPublish": "3.10.5",
     "path": "@PROJECT_PATH@"
   },
@@ -54,10 +54,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.083rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -92,7 +92,7 @@
           "_anchor": "menu-2",
           "_params": {
             "bgColor": "#282828",
-            "fontSize": 0.75,
+            "fontSize": "1",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -101,15 +101,17 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/8mixrwp-227x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -117,8 +119,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ComicalComunity</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://comicalcommunity.boards.net/\" target=\"_blank\">Forums</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://comicalcommunity.myfreesites.net/\" target=\"_blank\">Home Page</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "header1",
@@ -128,7 +130,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/8mixrwp-2000x1125.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -141,10 +143,10 @@
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
-          "title": "ComicalComunity&nbsp;",
-          "text": "Welcome to my&nbsp;",
+          "title": "ComicalComunity Donations!",
+          "text": "Welcome to my Donations Page here you can buy Ranks In game cash and lots more comming soon!&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
         {
@@ -154,6 +156,12 @@
             },
             ".mbr-section__container .mbr-section-subtitle": {
               "color": "#a0a0a0"
+            },
+            ".mbr-plan-label": {
+              "color": "#ffffff"
+            },
+            ".mbr-price-figure": {
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -180,48 +188,206 @@
             "showSubtitle": true,
             "firstType": "",
             "showButtons": true,
-            "secondType": "bg-primary",
+            "secondType": "",
             "thirdType": "",
             "fourthType": ""
           },
-          "title": "PRICING TABLE",
-          "subtitle": "Pricing table with four columns and solid color background.",
+          "title": "Donate For Ranks And Classses and more Comming SOON!",
+          "subtitle": "",
           "label1": "HOT!",
           "title1": "V.I.P",
           "subtitle1": "Access To V.I.P Jobs V.I.P Printers And Commands",
           "currency1": "$",
           "price1": "5",
-          "period1": "/mo.",
-          "description1": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">Checkout</a>",
+          "period1": "/LF.",
+          "description1": "<br><br>",
+          "list1": "<ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">V.I.P</span><br><li class=\"list-group-item\">Lifetime</li><li class=\"list-group-item\">Notify Owner</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=rc18535%40gmail%2ecom&amp;lc=US&amp;item_name=V%2eI%2eP&amp;amount=5%2e00&amp;currency_code=USD&amp;button_subtype=services&amp;no_note=0&amp;tax_rate=0%2e000&amp;bn=PP-BuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Checkout</a>",
           "label2": "HOT!",
           "title2": "V.I.P+",
           "subtitle2": "Access To V.I.P+ Jobs V.I.P+ Printers And Commands",
           "currency2": "$",
           "price2": "10",
+          "period2": "/LF.",
+          "description2": "<br><br>",
+          "list2": "<ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">V.I.P+</span><br><li class=\"list-group-item\">Lifetime</li><li class=\"list-group-item\">Notify Owner</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=rc18535%40gmail%2ecom&amp;lc=US&amp;item_name=V%2eI%2eP%2b&amp;amount=10%2e00&amp;currency_code=USD&amp;button_subtype=services&amp;no_note=0&amp;tax_rate=0%2e000&amp;bn=PP-BuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Checkout</a>",
+          "label3": "HOT!",
+          "title3": "Custom Rank!",
+          "subtitle3": "You Can Have your Own Class Just for you",
+          "currency3": "$",
+          "price3": "8",
+          "period3": "/LF.",
+          "description3": "<br><br>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Custom Rank</li><li class=\"list-group-item\">One Custom Class</li><li class=\"list-group-item\">Notify Owner!</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/webapps/hermes?token=71V93553V6728533H&amp;useraction=commit&amp;xclick_params=bG9naW5fZW1haWwlM0RyYzE4NTM1JTI1NDBnbWFpbC5jb20lMjZidXNpbmVzcyUzRHJjMTg1MzUlMjU0MGdtYWlsLmNvbSUyNmxjJTNEVVMlMjZpdGVtX25hbWUlM0QxMDAlMjUyYzAwMCUyNTIwSW4lMjUyMEdhbWUlMjUyMENhc2glMjZhbW91bnQlM0Q4LjAwJTI2Y3VycmVuY3lfY29kZSUzRFVTRCUyNmJ1dHRvbl9zdWJ0eXBlJTNEc2VydmljZXMlMjZub19ub3RlJTNEMCUyNnRheF9yYXRlJTNEMC4wMDAlMjZibiUzRFBQLUJ1eU5vd0JGJTI1M2FidG5fYnV5bm93Q0NfTEcuZ2lmJTI1M2FOb25Ib3N0ZWRHdWVzdCUyNiUyNndhX3R5cGUlM0RCdXlOb3clMjY=&amp;mfid=1484597269365_658a62ae31145#/checkout/login\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Checkout</a>",
+          "label4": "HOT!",
+          "title4": "",
+          "subtitle4": "Donate 13 Dollors Just for fun! To Help The Server Get Better",
+          "currency4": "$",
+          "price4": "",
+          "period4": "<b>13</b>/LF.",
+          "description4": "<br><br><br>",
+          "list4": "<ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Donate! $13</span><br><li class=\"list-group-item\">As many times as you want!</li><li class=\"list-group-item\">Thanks if you donated!</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=rc18535%40gmail%2ecom&amp;lc=US&amp;item_name=1%2c000%2c000%20In%20Game%20Cash&amp;amount=13%2e00&amp;currency_code=USD&amp;button_subtype=services&amp;no_note=0&amp;tax_rate=0%2e000&amp;bn=PP-BuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Checkout</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-3",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#303030",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "hidden",
+            "thirdType": "hidden",
+            "fourthType": "hidden"
+          },
+          "title": "",
+          "subtitle": "<br><br>",
+          "label1": "HOT!",
+          "title1": "Founder Rank!",
+          "subtitle1": "Kinda Like Superadmin",
+          "currency1": "$",
+          "price1": "20",
+          "period1": "/LF.",
+          "description1": "<br><br>",
+          "list1": "<ul class=\"list-group list-group-flush\">Founder Rank<br><li class=\"list-group-item\">Lifetime</li><li class=\"list-group-item\">Contact Owner</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=Y6TNKSRRMB39C&amp;lc=US&amp;item_name=Founder%20Rank&amp;amount=20%2e00&amp;currency_code=USD&amp;button_subtype=services&amp;tax_rate=0%2e000&amp;shipping=0%2e00&amp;bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Checkout</a>",
+          "label2": "HOT!",
+          "title2": "BUSINESS",
+          "subtitle2": "Description",
+          "currency2": "$",
+          "price2": "0",
           "period2": "/mo.",
           "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">Checkout</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
           "label3": "HOT!",
-          "title3": "100,000 In Game Money",
-          "subtitle3": "You Get One Million Dollors in game money!",
+          "title3": "PREMIUM",
+          "subtitle3": "Description",
           "currency3": "$",
-          "price3": "8",
+          "price3": "0",
           "period3": "/mo.",
           "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">Checkout</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
           "label4": "HOT!",
-          "title4": "1,000,000 In Game Money",
-          "subtitle4": "You Get One Million Dollors in game money!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Description",
           "currency4": "$",
-          "price4": "",
-          "period4": "13/mo.",
+          "price4": "0",
+          "period4": "/mo.",
           "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">Checkout</a>"
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-4",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "rc18535@gmail.com",
+            "alerts": {
+              "success": "Thanks for the message the owner had been contacted"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-6",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SHARE THIS PAGE!"
         },
         {
           "_name": "footer1",
@@ -238,7 +404,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 By Ghost."
+          "text": "Copyright (c) 2017 By Ghost."
         }
       ]
     }
