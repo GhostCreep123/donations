@@ -162,6 +162,9 @@
             },
             ".mbr-price-figure": {
               "color": "#ffffff"
+            },
+            ".mbr-plan-subtitle": {
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -223,7 +226,7 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/webapps/hermes?token=71V93553V6728533H&amp;useraction=commit&amp;xclick_params=bG9naW5fZW1haWwlM0RyYzE4NTM1JTI1NDBnbWFpbC5jb20lMjZidXNpbmVzcyUzRHJjMTg1MzUlMjU0MGdtYWlsLmNvbSUyNmxjJTNEVVMlMjZpdGVtX25hbWUlM0QxMDAlMjUyYzAwMCUyNTIwSW4lMjUyMEdhbWUlMjUyMENhc2glMjZhbW91bnQlM0Q4LjAwJTI2Y3VycmVuY3lfY29kZSUzRFVTRCUyNmJ1dHRvbl9zdWJ0eXBlJTNEc2VydmljZXMlMjZub19ub3RlJTNEMCUyNnRheF9yYXRlJTNEMC4wMDAlMjZibiUzRFBQLUJ1eU5vd0JGJTI1M2FidG5fYnV5bm93Q0NfTEcuZ2lmJTI1M2FOb25Ib3N0ZWRHdWVzdCUyNiUyNndhX3R5cGUlM0RCdXlOb3clMjY=&amp;mfid=1484597269365_658a62ae31145#/checkout/login\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Checkout</a>",
           "label4": "HOT!",
           "title4": "",
-          "subtitle4": "Donate 13 Dollors Just for fun! To Help The Server Get Better",
+          "subtitle4": "<b style=\"font-style: normal;\">Donate! For Fun</b><br>Donate 13 Dollors Just for fun! To Help The Server Get Better",
           "currency4": "$",
           "price4": "",
           "period4": "<b>13</b>/LF.",
