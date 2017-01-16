@@ -227,7 +227,7 @@
           "currency4": "$",
           "price4": "",
           "period4": "<b>13</b>/LF.",
-          "description4": "<br><br><br>",
+          "description4": "<br><br>",
           "list4": "<ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Donate! $13</span><br><li class=\"list-group-item\">As many times as you want!</li><li class=\"list-group-item\">Thanks if you donated!</li></ul>",
           "button4": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=rc18535%40gmail%2ecom&amp;lc=US&amp;item_name=1%2c000%2c000%20In%20Game%20Cash&amp;amount=13%2e00&amp;currency_code=USD&amp;button_subtype=services&amp;no_note=0&amp;tax_rate=0%2e000&amp;bn=PP-BuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Checkout</a>"
         },
